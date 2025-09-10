@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ruluko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <header id="header">
+            <input type="color" id="colorPicker" value="#F55A5A" required>
+            <select id="schemeType" required>
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">Monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="getScheme">Get Color Scheme</button>
+        </header>
+        <main id="colorScheme">
+            <!-- Color scheme will be displayed here -->
+            <div class="color" id="1" style="background-color: #F55A5A;"></div>
+            <div class="color" id="2" style="background-color: #F5A55A;"></div>
+            <div class="color" id="3" style="background-color: #F5F55A;"></div>
+            <div class="color" id="4" style="background-color: #A5F55A;"></div>
+            <div class="color" id="5" style="background-color: #5AF55A;"></div>
+        </main>
+        <footer id="footer">
+            <p class="colorValue" id="V1">#F55A5A</p>
+            <p class="colorValue" id="V2">#F5A55A</p>
+            <p class="colorValue" id="V3">#F5F55A</p>
+            <p class="colorValue" id="V4">#A5F55A</p>
+            <p class="colorValue" id="V5">#5AF55A</p>
+        </footer>
+    </section>
+    
+</body>
+<script src="script.js"></script>
+</html>
