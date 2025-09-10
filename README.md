@@ -12,13 +12,14 @@ A simple web app to generate color palettes using [The Color API](https://www.th
 - Responsive and modern UI
 
 ## Usage
-1. Open the app in your browser (or [view the deployed site](https://mercurialw0rld.github.io/color_scheme_generator/))
+1. Open the app in your browser (or [view the deployed site](https://mercurialw0rld.github.io/color-scheme-generator/))
 2. Pick a color and a scheme mode
 3. Click "Get Color Scheme"
 4. Click any color block to copy its hex code
 
 ## Development
-- Clone this repo: `git clone https://github.com/mercurialw0rld/color_scheme_generator.git`
+- Clone this repo: `git clone https://github.com/mercurialw0rld/color-scheme-generator.git`
 - Open `index.html` in your browser
 - All logic is in `script.js`, styles in `styles.css`
+
 
